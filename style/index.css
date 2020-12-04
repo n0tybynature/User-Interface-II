@@ -1,1 +1,337 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body {
+	font-family: 'Bebas Neue', cursive;
+}
+header {
+	background-color: #C3E5E7;
+}
+
+.above {
+	display:flex;
+	height: 13vh;
+	width: 0 auto;
+	
+}
+
+
+
+
+h2 {	
+	display:flex;
+	font-size: 2em;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	width: 14vw;
+	flex-direction: row-reverse;
+	color: #DF7027;
+	font-style: italic;
+}
+
+nav {	
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	width: 97vw;
+	flex-wrap: nowrap;
+	
+	height: 12vh;
+}
+
+a {
+	
+	text-decoration: none;
+}
+
+
+
+h1 {
+	display: flex;
+	font-size: 8em;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	width: 45vw;
+	justify-content: center;
+	text-align: center;
+	color: #DF7027;
+	padding: 20px;
+	font-style: italic;
+	opacity: 35%;
+	transition-property: height;
+	transition: 3s;
+	
+}
+
+
+h1 a:link{
+	color:#DF7027;
+	opacity: 75%;
+}
+
+h1 a:visited{
+	color: #DF7027;
+	opacity: 100%;
+	
+}
+
+.second a:link a:hover{
+	color:#699FA1;
+}
+.second a:visited {
+	color:#DF7027;
+	
+}
+
+h1:hover {
+	opacity: 1;
+	padding: 70px 0px 0px 0px;
+	
+}
+
+.topnav {
+	display: flex;
+	justify-content: space-around;
+	width: 30em;
+	padding: 5px;
+	align-items: baseline;
+}
+
+.topnav a {
+	
+	color: #699FA1;
+	font-size: 15pt;
+}
+
+.topnav a:hover {
+	color: #DD8627;
+}
+
+
+.first {
+	
+	height: 80vh;
+	
+	
+	background:url(http://s1.1zoom.net/big0/344/French_Bulldog_White_background_Snout_Puppy_581835_1280x853.jpg);
+	background-repeat: no-repeat;
+	background-size: 400px 250px;
+	background-position: bottom;
+	
+}
+
+
+.main {
+	display:flex;
+	flex-direction: Column;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
+
+	height: 54vh;
+}
+
+img{
+	display:
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+
+
+
+
+
+span {
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	color: #699FA1;
+}
+
+
+
+.second {
+	padding: 5em 0em;
+	display:flex;
+	
+	justify-content: space-around;
+	align-content: space-around;
+	flex-wrap:wrap;
+	
+}
+
+.work1 {
+	display:flex;
+	width: 15em;
+	height: 15em;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25% 0 25% 0;
+	background-image: url(file:///C:/Users/Tony%20Yang/Documents/rad/s1.jpg);
+	background-size: 16.6em 22em;
+	background-repeat: no-repeat;
+	background-position-y: 95%;
+	object-fit: cover;
+	
+}
+
+
+
+.work2 {
+	display:flex;
+	width: 15em;
+	height: 15em;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25% 0 25% 0;
+	background-image: url(file:///C:/Users/Tony%20Yang/Documents/rad/s2.jpg);
+	background-size: 21em 16em ;
+	background-repeat: no-repeat;
+	background-position: center;
+	bac
+}
+
+.work3 {
+	display:flex;
+	width: 15em;
+	height: 15em;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25% 0 25% 0;
+	background-image: url(file:///C:/Users/Tony%20Yang/Documents/rad/s3.jpg);
+	background-size: 24em 16em ;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: fill;
+}
+
+.work4 {
+	display:flex;
+	width: 15em;
+	height: 15em;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25% 0 25% 0;
+	background-image: url(file:///C:/Users/Tony%20Yang/Documents/rad/s4.jpg);
+	background-size: 23em 15.5em ;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: fill;
+}
+
+.work5 {
+	display:flex;
+	width: 15em;
+	height: 15em;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25% 0 25% 0;
+	background-image: url(file:///C:/Users/Tony%20Yang/Documents/rad/s5.jpg);
+	background-size: 21em 16em ;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: fill;
+}
+
+.work6 {
+	display:flex;
+	width: 15em;
+	height: 15em;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25% 0 25% 0;
+	background-image: url(file:///C:/Users/Tony%20Yang/Documents/rad/s6.jpg);
+	background-size: 21em 16em ;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: fill;
+	
+}
+
+
+.text {
+	width: 15em;
+	height: 15em;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25% 0 25% 0;
+	background-color: #C3E5E7;
+	opacity: 39%;
+	
+}
+
+.text:hover {
+	opacity: 100%;
+	
+	
+}
+
+
+.last {
+	margin: 0 auto;
+	width:100vw;
+	height: 10vh;
+	display:flex;
+	align-items: flex-end;
+	justify-content: center;
+	background-color: #DD8627;
+	
+}
+
+.contact {	
+	color:#699FA1;
+	height: 40px;
+	font-size: 19pt;
+	letter-spacing: 10px;
+}
+
+.contact a:visited {
+	color:#C3E5E7;
+	
+}
