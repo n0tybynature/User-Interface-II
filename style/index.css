@@ -87,6 +87,8 @@ a {
 	text-decoration: none;
 }
 
+
+
 h1 {
 	display: flex;
 	font-size: 8em;
@@ -115,8 +117,11 @@ h1 a:visited{
 	
 }
 
-.second a:visited{
-	color:#ffffff;
+.second a:link a:hover{
+	color:#699FA1;
+}
+.second a:visited {
+	color:#DF7027;
 	
 }
 
@@ -297,14 +302,13 @@ span {
 	justify-content: center;
 	border-radius: 25% 0 25% 0;
 	background-color: #C3E5E7;
-	opacity: 55%;
+	opacity: 39%;
 	
-
 }
 
 .text:hover {
 	opacity: 100%;
-	color:white;
+	
 	
 }
 
