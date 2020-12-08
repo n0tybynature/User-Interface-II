@@ -47,15 +47,20 @@ table {
 
 body {
 	font-family: 'Bebas Neue', cursive;
+	max-width: 100%;
 }
 header {
 	background-color: #C3E5E7;
+	width: 100vw;
+
 }
 
 .above {
 	display:flex;
 	height: 13vh;
-	width: 0 auto;
+	width: 100vw;
+	justify-content: space-evenly;
+	align-items: center;
 	
 }
 
@@ -66,20 +71,20 @@ h2 {
 	display:flex;
 	font-size: 2em;
 	font-family: 'Montserrat Subrayada', sans-serif;
-	width: 14vw;
-	flex-direction: row-reverse;
+	
+	padding: 2% 4%;
 	color: #DF7027;
 	font-style: italic;
 }
 
 nav {	
 	display:flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	align-items:center;
-	width: 97vw;
-	flex-wrap: nowrap;
 	
-	height: 12vh;
+	flex-wrap: nowrap;
+	overflow: hidden;
+	
 }
 
 a {
@@ -174,7 +179,7 @@ h1:hover {
 }
 
 img{
-	display:
+	
 	max-width: 100%;
 	max-height: 100%;
 }
@@ -217,7 +222,8 @@ span {
 	background-repeat: no-repeat;
 	background-position-y: 95%;
 	object-fit: cover;
-	
+	margin: 1em;
+   	box-sizing: border-box;
 }
 
 
@@ -233,7 +239,8 @@ span {
 	background-size: 21em 16em ;
 	background-repeat: no-repeat;
 	background-position: center;
-	bac
+	margin: 1em;
+   	box-sizing: border-box;
 }
 
 .work3 {
@@ -248,6 +255,8 @@ span {
 	background-repeat: no-repeat;
 	background-position: center;
 	object-fit: fill;
+	margin: 1em;
+   	box-sizing: border-box;
 }
 
 .work4 {
@@ -262,6 +271,8 @@ span {
 	background-repeat: no-repeat;
 	background-position: center;
 	object-fit: fill;
+	margin: 1em;
+   	box-sizing: border-box;
 }
 
 .work5 {
@@ -276,6 +287,8 @@ span {
 	background-repeat: no-repeat;
 	background-position: center;
 	object-fit: fill;
+	margin: 1em;
+   	box-sizing: border-box;
 }
 
 .work6 {
@@ -290,6 +303,8 @@ span {
 	background-repeat: no-repeat;
 	background-position: center;
 	object-fit: fill;
+	margin: 1em;
+   	box-sizing: border-box;
 	
 }
 
@@ -334,4 +349,27 @@ span {
 .contact a:visited {
 	color:#C3E5E7;
 	
+}
+
+
+
+@media (max-width:500px){
+	
+	.above {
+		flex-direction: column;
+		height: 100%;
+		
+	}
+
+	.topnav {
+		flex-direction: column;
+		
+		align-items: center;
+	}
+	
+
+
+	a {
+		padding: 1%;
+	}
 }
